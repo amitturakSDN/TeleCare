@@ -1,0 +1,1115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* TeleCareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TeleCareTests.m */; };
+		04D58B71EFC9CC33CDFC9C2A /* Pods_TeleCareCommonPods_TeleCareQA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD913A3B85AD86DEAD057A6 /* Pods_TeleCareCommonPods_TeleCareQA.framework */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4E97FEE387FEB8F17AD5C296 /* Pods_TeleCareCommonPods_TeleCareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D7754A5D31B6272FB0F709 /* Pods_TeleCareCommonPods_TeleCareTests.framework */; };
+		512440B02B0F4F370022ADAB /* org_reactjs_native_example_TeleCare_ios.pem in Resources */ = {isa = PBXBuildFile; fileRef = 512440AF2B0F4F370022ADAB /* org_reactjs_native_example_TeleCare_ios.pem */; };
+		512440B22B0F4F4D0022ADAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 512440B12B0F4F4D0022ADAB /* GoogleService-Info.plist */; };
+		512440B42B0F4F680022ADAB /* ZoomVideoSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512440B32B0F4F680022ADAB /* ZoomVideoSDK.xcframework */; };
+		512746AD2B67676800ED7124 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		512746AE2B67676800ED7124 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		512746B02B67676800ED7124 /* iHealthSDK2.10.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FEEAE42B14B60300582D69 /* iHealthSDK2.10.0.a */; };
+		512746B22B67676800ED7124 /* ZoomVideoSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512440B32B0F4F680022ADAB /* ZoomVideoSDK.xcframework */; };
+		512746B42B67676800ED7124 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43252B09299800FD84B5 /* Nunito-Medium.ttf */; };
+		512746B52B67676800ED7124 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43232B09299800FD84B5 /* Nunito-SemiBold.ttf */; };
+		512746B62B67676800ED7124 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43242B09299800FD84B5 /* Nunito-ExtraLight.ttf */; };
+		512746B72B67676800ED7124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		512746B82B67676800ED7124 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43222B09299800FD84B5 /* Nunito-Bold.ttf */; };
+		512746B92B67676800ED7124 /* org_reactjs_native_example_TeleCare_ios.pem in Resources */ = {isa = PBXBuildFile; fileRef = 512440AF2B0F4F370022ADAB /* org_reactjs_native_example_TeleCare_ios.pem */; };
+		512746BA2B67676800ED7124 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		512746BB2B67676800ED7124 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43262B09299800FD84B5 /* Nunito-Regular.ttf */; };
+		512746BC2B67676800ED7124 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 512440B12B0F4F4D0022ADAB /* GoogleService-Info.plist */; };
+		512746BD2B67676800ED7124 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43202B09299800FD84B5 /* Nunito-Light.ttf */; };
+		512746BE2B67676800ED7124 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43212B09299800FD84B5 /* Nunito-Black.ttf */; };
+		512746C22B67676800ED7124 /* ZoomVideoSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 512440B32B0F4F680022ADAB /* ZoomVideoSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		512746CC2B6769BD00ED7124 /* TeleCare qa-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 512746CB2B6769BD00ED7124 /* TeleCare qa-Info.plist */; };
+		512746CD2B6769BD00ED7124 /* TeleCare qa-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 512746CB2B6769BD00ED7124 /* TeleCare qa-Info.plist */; };
+		512746D42B6B4A2900ED7124 /* org_react_js_native_qa_TeleCare_ios.pem in Resources */ = {isa = PBXBuildFile; fileRef = 512746D32B6B4A2800ED7124 /* org_react_js_native_qa_TeleCare_ios.pem */; };
+		512746D52B6B4A2900ED7124 /* org_react_js_native_qa_TeleCare_ios.pem in Resources */ = {isa = PBXBuildFile; fileRef = 512746D32B6B4A2800ED7124 /* org_react_js_native_qa_TeleCare_ios.pem */; };
+		513A3BC02B0F50AC005151A2 /* ZoomVideoSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 512440B32B0F4F680022ADAB /* ZoomVideoSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		51FEEAE22B14B35A00582D69 /* iHealthSDK2.10.0 in Resources */ = {isa = PBXBuildFile; fileRef = 51FEEAE12B14B35A00582D69 /* iHealthSDK2.10.0 */; };
+		51FEEAE52B14B60400582D69 /* iHealthSDK2.10.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FEEAE42B14B60300582D69 /* iHealthSDK2.10.0.a */; };
+		714E43272B09299800FD84B5 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43202B09299800FD84B5 /* Nunito-Light.ttf */; };
+		714E43282B09299800FD84B5 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43212B09299800FD84B5 /* Nunito-Black.ttf */; };
+		714E43292B09299800FD84B5 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43222B09299800FD84B5 /* Nunito-Bold.ttf */; };
+		714E432A2B09299800FD84B5 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43232B09299800FD84B5 /* Nunito-SemiBold.ttf */; };
+		714E432B2B09299800FD84B5 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43242B09299800FD84B5 /* Nunito-ExtraLight.ttf */; };
+		714E432C2B09299800FD84B5 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43252B09299800FD84B5 /* Nunito-Medium.ttf */; };
+		714E432D2B09299800FD84B5 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714E43262B09299800FD84B5 /* Nunito-Regular.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FEC5C17413FB9727248AEBD2 /* Pods_TeleCareCommonPods_TeleCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303D7661112B4ED0FCE1C8E2 /* Pods_TeleCareCommonPods_TeleCare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = TeleCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		512746C12B67676800ED7124 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				512746C22B67676800ED7124 /* ZoomVideoSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714E43172B09206E00FD84B5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				513A3BC02B0F50AC005151A2 /* ZoomVideoSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* TeleCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TeleCareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeleCareTests.m; sourceTree = "<group>"; };
+		05D24D1BB088F4752A0BABCD /* Pods-TeleCareCommonPods-TeleCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCare.release.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCare/Pods-TeleCareCommonPods-TeleCare.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TeleCare Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TeleCare Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TeleCare/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = TeleCare/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TeleCare/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TeleCare/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TeleCare/main.m; sourceTree = "<group>"; };
+		14ACD46F89CBCFD508CF5DDB /* Pods-TeleCareCommonPods-TeleCareQA.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCareQA.debugqa.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCareQA/Pods-TeleCareCommonPods-TeleCareQA.debugqa.xcconfig"; sourceTree = "<group>"; };
+		1BCA35EA33EAFE006A8713E5 /* Pods-TeleCareCommonPods-TeleCareTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCareTests.debugqa.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCareTests/Pods-TeleCareCommonPods-TeleCareTests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		292A756BFC00BFDF6D2674F4 /* Pods-TeleCare.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare.releaseqa.xcconfig"; path = "Target Support Files/Pods-TeleCare/Pods-TeleCare.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		2FEC3185734A8F3C785BB94A /* Pods-TeleCare-TeleCareTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare-TeleCareTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-TeleCare-TeleCareTests/Pods-TeleCare-TeleCareTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		303D7661112B4ED0FCE1C8E2 /* Pods_TeleCareCommonPods_TeleCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeleCareCommonPods_TeleCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-TeleCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare.debug.xcconfig"; path = "Target Support Files/Pods-TeleCare/Pods-TeleCare.debug.xcconfig"; sourceTree = "<group>"; };
+		3C30B026F1EA0784729899D5 /* Pods-TeleCareCommonPods-TeleCareQA.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCareQA.releaseqa.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCareQA/Pods-TeleCareCommonPods-TeleCareQA.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		4156774232CA6CEC141D0194 /* Pods-TeleCare-TeleCareQA.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare-TeleCareQA.releaseqa.xcconfig"; path = "Target Support Files/Pods-TeleCare-TeleCareQA/Pods-TeleCare-TeleCareQA.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		4682524F3D0EF9F83C374104 /* Pods-TeleCareCommonPods-TeleCareQA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCareQA.debug.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCareQA/Pods-TeleCareCommonPods-TeleCareQA.debug.xcconfig"; sourceTree = "<group>"; };
+		512440AF2B0F4F370022ADAB /* org_reactjs_native_example_TeleCare_ios.pem */ = {isa = PBXFileReference; lastKnownFileType = file; path = org_reactjs_native_example_TeleCare_ios.pem; sourceTree = "<group>"; };
+		512440B12B0F4F4D0022ADAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		512440B32B0F4F680022ADAB /* ZoomVideoSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ZoomVideoSDK.xcframework; sourceTree = "<group>"; };
+		512746C92B67676800ED7124 /* TeleCareQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeleCareQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		512746CB2B6769BD00ED7124 /* TeleCare qa-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TeleCare qa-Info.plist"; sourceTree = "<group>"; };
+		512746D12B68BCE800ED7124 /* TeleCareDebugQA.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = TeleCareDebugQA.entitlements; path = TeleCare/TeleCareDebugQA.entitlements; sourceTree = "<group>"; };
+		512746D22B68BD4000ED7124 /* TeleCareReleaseQA.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = TeleCareReleaseQA.entitlements; path = TeleCare/TeleCareReleaseQA.entitlements; sourceTree = "<group>"; };
+		512746D32B6B4A2800ED7124 /* org_react_js_native_qa_TeleCare_ios.pem */ = {isa = PBXFileReference; lastKnownFileType = file; path = org_react_js_native_qa_TeleCare_ios.pem; sourceTree = "<group>"; };
+		51326FBA2ACC3676004E81DF /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
+		513A3BC12B0F5358005151A2 /* TeleCareDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TeleCareDebug.entitlements; path = TeleCare/TeleCareDebug.entitlements; sourceTree = "<group>"; };
+		51B5674A2B0F5BC000649AAA /* TeleCareRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TeleCareRelease.entitlements; path = TeleCare/TeleCareRelease.entitlements; sourceTree = "<group>"; };
+		51FEEAE12B14B35A00582D69 /* iHealthSDK2.10.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iHealthSDK2.10.0; sourceTree = "<group>"; };
+		51FEEAE42B14B60300582D69 /* iHealthSDK2.10.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = iHealthSDK2.10.0.a; path = iHealthSDK2.10.0/iHealthSDK2.10.0.a; sourceTree = "<group>"; };
+		55448BC767B499A910EC80CF /* Pods-TeleCareCommonPods-TeleCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCareTests.debug.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCareTests/Pods-TeleCareCommonPods-TeleCareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-TeleCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare.release.xcconfig"; path = "Target Support Files/Pods-TeleCare/Pods-TeleCare.release.xcconfig"; sourceTree = "<group>"; };
+		5A5B1F1E9BE5FE92A6DCD0E6 /* Pods-TeleCareCommonPods-TeleCareQA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCareQA.release.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCareQA/Pods-TeleCareCommonPods-TeleCareQA.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-TeleCare-TeleCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare-TeleCareTests.debug.xcconfig"; path = "Target Support Files/Pods-TeleCare-TeleCareTests/Pods-TeleCare-TeleCareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C3FC901432021C8EDF32D14 /* Pods-TeleCare-TeleCareTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare-TeleCareTests.debugqa.xcconfig"; path = "Target Support Files/Pods-TeleCare-TeleCareTests/Pods-TeleCare-TeleCareTests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		714E43202B09299800FD84B5 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Light.ttf"; path = "../assets/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; };
+		714E43212B09299800FD84B5 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Black.ttf"; path = "../assets/fonts/Nunito-Black.ttf"; sourceTree = "<group>"; };
+		714E43222B09299800FD84B5 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		714E43232B09299800FD84B5 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-SemiBold.ttf"; path = "../assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		714E43242B09299800FD84B5 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-ExtraLight.ttf"; path = "../assets/fonts/Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		714E43252B09299800FD84B5 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Medium.ttf"; path = "../assets/fonts/Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		714E43262B09299800FD84B5 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Regular.ttf"; path = "../assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TeleCare/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-TeleCare-TeleCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare-TeleCareTests.release.xcconfig"; path = "Target Support Files/Pods-TeleCare-TeleCareTests/Pods-TeleCare-TeleCareTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CE9366C1E2628B793D2A473 /* Pods-TeleCareCommonPods-TeleCareTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCareTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCareTests/Pods-TeleCareCommonPods-TeleCareTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		994170498464073B84C9B152 /* Pods-TeleCareCommonPods-TeleCare.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCare.debugqa.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCare/Pods-TeleCareCommonPods-TeleCare.debugqa.xcconfig"; sourceTree = "<group>"; };
+		A1D7754A5D31B6272FB0F709 /* Pods_TeleCareCommonPods_TeleCareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeleCareCommonPods_TeleCareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48FB644A7E1FC0B78DB7B62 /* Pods-TeleCare-TeleCareQA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare-TeleCareQA.release.xcconfig"; path = "Target Support Files/Pods-TeleCare-TeleCareQA/Pods-TeleCare-TeleCareQA.release.xcconfig"; sourceTree = "<group>"; };
+		A8C3333ED00103A233C4CA37 /* Pods-TeleCare.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare.debugqa.xcconfig"; path = "Target Support Files/Pods-TeleCare/Pods-TeleCare.debugqa.xcconfig"; sourceTree = "<group>"; };
+		AFFEABB144B185DF035CB703 /* Pods-TeleCareCommonPods-TeleCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCareTests.release.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCareTests/Pods-TeleCareCommonPods-TeleCareTests.release.xcconfig"; sourceTree = "<group>"; };
+		D83463FB70B49A9B2AAEE1B6 /* Pods-TeleCare-TeleCareQA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare-TeleCareQA.debug.xcconfig"; path = "Target Support Files/Pods-TeleCare-TeleCareQA/Pods-TeleCare-TeleCareQA.debug.xcconfig"; sourceTree = "<group>"; };
+		DDD913A3B85AD86DEAD057A6 /* Pods_TeleCareCommonPods_TeleCareQA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeleCareCommonPods_TeleCareQA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99F021E56385F68DC5E3433 /* Pods-TeleCare-TeleCareQA.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCare-TeleCareQA.debugqa.xcconfig"; path = "Target Support Files/Pods-TeleCare-TeleCareQA/Pods-TeleCare-TeleCareQA.debugqa.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F9EF18EC5945DE61E41033A1 /* Pods-TeleCareCommonPods-TeleCare.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCare.releaseqa.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCare/Pods-TeleCareCommonPods-TeleCare.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		FFD17866DBF598043AB40966 /* Pods-TeleCareCommonPods-TeleCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeleCareCommonPods-TeleCare.debug.xcconfig"; path = "Target Support Files/Pods-TeleCareCommonPods-TeleCare/Pods-TeleCareCommonPods-TeleCare.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E97FEE387FEB8F17AD5C296 /* Pods_TeleCareCommonPods_TeleCareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FEEAE52B14B60400582D69 /* iHealthSDK2.10.0.a in Frameworks */,
+				512440B42B0F4F680022ADAB /* ZoomVideoSDK.xcframework in Frameworks */,
+				FEC5C17413FB9727248AEBD2 /* Pods_TeleCareCommonPods_TeleCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512746AF2B67676800ED7124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512746B02B67676800ED7124 /* iHealthSDK2.10.0.a in Frameworks */,
+				512746B22B67676800ED7124 /* ZoomVideoSDK.xcframework in Frameworks */,
+				04D58B71EFC9CC33CDFC9C2A /* Pods_TeleCareCommonPods_TeleCareQA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* TeleCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* TeleCareTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = TeleCareTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* TeleCare */ = {
+			isa = PBXGroup;
+			children = (
+				51B5674A2B0F5BC000649AAA /* TeleCareRelease.entitlements */,
+				512746D12B68BCE800ED7124 /* TeleCareDebugQA.entitlements */,
+				512746D22B68BD4000ED7124 /* TeleCareReleaseQA.entitlements */,
+				513A3BC12B0F5358005151A2 /* TeleCareDebug.entitlements */,
+				512440B12B0F4F4D0022ADAB /* GoogleService-Info.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				51326FBA2ACC3676004E81DF /* Fonts */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				512746CB2B6769BD00ED7124 /* TeleCare qa-Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = TeleCare;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51FEEAE42B14B60300582D69 /* iHealthSDK2.10.0.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				303D7661112B4ED0FCE1C8E2 /* Pods_TeleCareCommonPods_TeleCare.framework */,
+				DDD913A3B85AD86DEAD057A6 /* Pods_TeleCareCommonPods_TeleCareQA.framework */,
+				A1D7754A5D31B6272FB0F709 /* Pods_TeleCareCommonPods_TeleCareTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				51FEEAE12B14B35A00582D69 /* iHealthSDK2.10.0 */,
+				512440B32B0F4F680022ADAB /* ZoomVideoSDK.xcframework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				512440AF2B0F4F370022ADAB /* org_reactjs_native_example_TeleCare_ios.pem */,
+				512746D32B6B4A2800ED7124 /* org_react_js_native_qa_TeleCare_ios.pem */,
+				13B07FAE1A68108700A75B9A /* TeleCare */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* TeleCareTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9E212E9F33504420BAE24B97 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* TeleCare Dev.app */,
+				00E356EE1AD99517003FC87E /* TeleCareTests.xctest */,
+				512746C92B67676800ED7124 /* TeleCareQA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E212E9F33504420BAE24B97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				714E43212B09299800FD84B5 /* Nunito-Black.ttf */,
+				714E43222B09299800FD84B5 /* Nunito-Bold.ttf */,
+				714E43242B09299800FD84B5 /* Nunito-ExtraLight.ttf */,
+				714E43202B09299800FD84B5 /* Nunito-Light.ttf */,
+				714E43252B09299800FD84B5 /* Nunito-Medium.ttf */,
+				714E43262B09299800FD84B5 /* Nunito-Regular.ttf */,
+				714E43232B09299800FD84B5 /* Nunito-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-TeleCare.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-TeleCare.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-TeleCare-TeleCareTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-TeleCare-TeleCareTests.release.xcconfig */,
+				FFD17866DBF598043AB40966 /* Pods-TeleCareCommonPods-TeleCare.debug.xcconfig */,
+				994170498464073B84C9B152 /* Pods-TeleCareCommonPods-TeleCare.debugqa.xcconfig */,
+				05D24D1BB088F4752A0BABCD /* Pods-TeleCareCommonPods-TeleCare.release.xcconfig */,
+				F9EF18EC5945DE61E41033A1 /* Pods-TeleCareCommonPods-TeleCare.releaseqa.xcconfig */,
+				4682524F3D0EF9F83C374104 /* Pods-TeleCareCommonPods-TeleCareQA.debug.xcconfig */,
+				14ACD46F89CBCFD508CF5DDB /* Pods-TeleCareCommonPods-TeleCareQA.debugqa.xcconfig */,
+				5A5B1F1E9BE5FE92A6DCD0E6 /* Pods-TeleCareCommonPods-TeleCareQA.release.xcconfig */,
+				3C30B026F1EA0784729899D5 /* Pods-TeleCareCommonPods-TeleCareQA.releaseqa.xcconfig */,
+				55448BC767B499A910EC80CF /* Pods-TeleCareCommonPods-TeleCareTests.debug.xcconfig */,
+				1BCA35EA33EAFE006A8713E5 /* Pods-TeleCareCommonPods-TeleCareTests.debugqa.xcconfig */,
+				AFFEABB144B185DF035CB703 /* Pods-TeleCareCommonPods-TeleCareTests.release.xcconfig */,
+				8CE9366C1E2628B793D2A473 /* Pods-TeleCareCommonPods-TeleCareTests.releaseqa.xcconfig */,
+				A8C3333ED00103A233C4CA37 /* Pods-TeleCare.debugqa.xcconfig */,
+				292A756BFC00BFDF6D2674F4 /* Pods-TeleCare.releaseqa.xcconfig */,
+				D83463FB70B49A9B2AAEE1B6 /* Pods-TeleCare-TeleCareQA.debug.xcconfig */,
+				E99F021E56385F68DC5E3433 /* Pods-TeleCare-TeleCareQA.debugqa.xcconfig */,
+				A48FB644A7E1FC0B78DB7B62 /* Pods-TeleCare-TeleCareQA.release.xcconfig */,
+				4156774232CA6CEC141D0194 /* Pods-TeleCare-TeleCareQA.releaseqa.xcconfig */,
+				5C3FC901432021C8EDF32D14 /* Pods-TeleCare-TeleCareTests.debugqa.xcconfig */,
+				2FEC3185734A8F3C785BB94A /* Pods-TeleCare-TeleCareTests.releaseqa.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* TeleCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TeleCareTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = TeleCareTests;
+			productName = TeleCareTests;
+			productReference = 00E356EE1AD99517003FC87E /* TeleCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* TeleCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TeleCare" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				714E43172B09206E00FD84B5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeleCare;
+			productName = TeleCare;
+			productReference = 13B07F961A680F5B00A75B9A /* TeleCare Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		512746A92B67676800ED7124 /* TeleCareQA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512746C42B67676800ED7124 /* Build configuration list for PBXNativeTarget "TeleCareQA" */;
+			buildPhases = (
+				512746AA2B67676800ED7124 /* [CP] Check Pods Manifest.lock */,
+				512746AB2B67676800ED7124 /* Start Packager */,
+				512746AC2B67676800ED7124 /* Sources */,
+				512746AF2B67676800ED7124 /* Frameworks */,
+				512746B32B67676800ED7124 /* Resources */,
+				512746BF2B67676800ED7124 /* Bundle React Native code and images */,
+				512746C02B67676800ED7124 /* [CP] Copy Pods Resources */,
+				512746C12B67676800ED7124 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeleCareQA;
+			productName = TeleCare;
+			productReference = 512746C92B67676800ED7124 /* TeleCareQA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TeleCare" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* TeleCare */,
+				00E356ED1AD99517003FC87E /* TeleCareTests */,
+				512746A92B67676800ED7124 /* TeleCareQA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FEEAE22B14B35A00582D69 /* iHealthSDK2.10.0 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512746CC2B6769BD00ED7124 /* TeleCare qa-Info.plist in Resources */,
+				714E432C2B09299800FD84B5 /* Nunito-Medium.ttf in Resources */,
+				714E432A2B09299800FD84B5 /* Nunito-SemiBold.ttf in Resources */,
+				512746D42B6B4A2900ED7124 /* org_react_js_native_qa_TeleCare_ios.pem in Resources */,
+				714E432B2B09299800FD84B5 /* Nunito-ExtraLight.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				714E43292B09299800FD84B5 /* Nunito-Bold.ttf in Resources */,
+				512440B02B0F4F370022ADAB /* org_reactjs_native_example_TeleCare_ios.pem in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				714E432D2B09299800FD84B5 /* Nunito-Regular.ttf in Resources */,
+				512440B22B0F4F4D0022ADAB /* GoogleService-Info.plist in Resources */,
+				714E43272B09299800FD84B5 /* Nunito-Light.ttf in Resources */,
+				714E43282B09299800FD84B5 /* Nunito-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512746B32B67676800ED7124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512746CD2B6769BD00ED7124 /* TeleCare qa-Info.plist in Resources */,
+				512746B42B67676800ED7124 /* Nunito-Medium.ttf in Resources */,
+				512746B52B67676800ED7124 /* Nunito-SemiBold.ttf in Resources */,
+				512746D52B6B4A2900ED7124 /* org_react_js_native_qa_TeleCare_ios.pem in Resources */,
+				512746B62B67676800ED7124 /* Nunito-ExtraLight.ttf in Resources */,
+				512746B72B67676800ED7124 /* LaunchScreen.storyboard in Resources */,
+				512746B82B67676800ED7124 /* Nunito-Bold.ttf in Resources */,
+				512746B92B67676800ED7124 /* org_reactjs_native_example_TeleCare_ios.pem in Resources */,
+				512746BA2B67676800ED7124 /* Images.xcassets in Resources */,
+				512746BB2B67676800ED7124 /* Nunito-Regular.ttf in Resources */,
+				512746BC2B67676800ED7124 /* GoogleService-Info.plist in Resources */,
+				512746BD2B67676800ED7124 /* Nunito-Light.ttf in Resources */,
+				512746BE2B67676800ED7124 /* Nunito-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		512746AA2B67676800ED7124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeleCareCommonPods-TeleCareQA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		512746AB2B67676800ED7124 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		512746BF2B67676800ED7124 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		512746C02B67676800ED7124 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeleCareCommonPods-TeleCareQA/Pods-TeleCareCommonPods-TeleCareQA-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeleCareCommonPods-TeleCareQA/Pods-TeleCareCommonPods-TeleCareQA-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeleCareCommonPods-TeleCareQA/Pods-TeleCareCommonPods-TeleCareQA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeleCareCommonPods-TeleCareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeleCareCommonPods-TeleCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeleCareCommonPods-TeleCare/Pods-TeleCareCommonPods-TeleCare-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeleCareCommonPods-TeleCare/Pods-TeleCareCommonPods-TeleCare-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeleCareCommonPods-TeleCare/Pods-TeleCareCommonPods-TeleCare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeleCareCommonPods-TeleCareTests/Pods-TeleCareCommonPods-TeleCareTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeleCareCommonPods-TeleCareTests/Pods-TeleCareCommonPods-TeleCareTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeleCareCommonPods-TeleCareTests/Pods-TeleCareCommonPods-TeleCareTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* TeleCareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512746AC2B67676800ED7124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512746AD2B67676800ED7124 /* AppDelegate.mm in Sources */,
+				512746AE2B67676800ED7124 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* TeleCare */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55448BC767B499A910EC80CF /* Pods-TeleCareCommonPods-TeleCareTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TeleCareTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthSDK2.7.3",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TeleCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeleCare.app/TeleCare";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFEABB144B185DF035CB703 /* Pods-TeleCareCommonPods-TeleCareTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = TeleCareTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthSDK2.7.3",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TeleCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeleCare.app/TeleCare";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD17866DBF598043AB40966 /* Pods-TeleCareCommonPods-TeleCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TeleCare/TeleCareDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 674BJRSQQ8;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TeleCare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TeleCare;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthSDK2.7.3",
+					"$(PROJECT_DIR)/iHealthSDK2.10.0",
+				);
+				MARKETING_VERSION = 1.8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.TeleCare;
+				PRODUCT_NAME = "TeleCare Dev";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D24D1BB088F4752A0BABCD /* Pods-TeleCareCommonPods-TeleCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TeleCare/TeleCareRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 674BJRSQQ8;
+				INFOPLIST_FILE = TeleCare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TeleCare;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthSDK2.7.3",
+					"$(PROJECT_DIR)/iHealthSDK2.10.0",
+				);
+				MARKETING_VERSION = 1.8.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.TeleCare;
+				PRODUCT_NAME = "TeleCare Dev";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		512746C52B67676800ED7124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4682524F3D0EF9F83C374104 /* Pods-TeleCareCommonPods-TeleCareQA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TeleCare/TeleCareDebugQA.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 674BJRSQQ8;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "TeleCare qa-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TeleCare;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthSDK2.7.3",
+					"$(PROJECT_DIR)/iHealthSDK2.10.0",
+				);
+				MARKETING_VERSION = 1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.qa.TeleCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		512746C72B67676800ED7124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5B1F1E9BE5FE92A6DCD0E6 /* Pods-TeleCareCommonPods-TeleCareQA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TeleCare/TeleCareReleaseQA.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 674BJRSQQ8;
+				INFOPLIST_FILE = "TeleCare qa-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TeleCare;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"$(PROJECT_DIR)/iHealthSDK2.7.3",
+					"$(PROJECT_DIR)/iHealthSDK2.10.0",
+				);
+				MARKETING_VERSION = 1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.qa.TeleCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TeleCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TeleCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512746C42B67676800ED7124 /* Build configuration list for PBXNativeTarget "TeleCareQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512746C52B67676800ED7124 /* Debug */,
+				512746C72B67676800ED7124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TeleCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

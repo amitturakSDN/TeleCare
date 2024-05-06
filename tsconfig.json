@@ -1,0 +1,42 @@
+{
+    "extends": "@tsconfig/react-native/tsconfig.json",
+    "compilerOptions": {
+        // "target": "esnext",
+        // "module": "esnext",
+        // "lib": ["esnext"],
+        // "allowJs": true,
+        // "jsx": "react-native",
+        // "noEmit": true,
+        // "isolatedModules": false,
+        // "strict": true,
+        // "moduleResolution": "node",
+        // "allowSyntheticDefaultImports": true,
+        // "esModuleInterop": true,
+        // // ? Custom ones
+        // "skipLibCheck": true,
+        // "resolveJsonModule": true,
+        // "strictNullChecks": true,
+        // "strictFunctionTypes": true,
+        // "strictPropertyInitialization": true,
+        // "noImplicitThis": true,
+        // "alwaysStrict": true,
+        // "noUnusedLocals": true,
+        // "noUnusedParameters": true,
+        // "noImplicitReturns": true,
+        // "noFallthroughCasesInSwitch": true,
+        // "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": false,
+        "baseUrl": ".",
+        "paths": {
+            "@constants/*": ["./src/constants/*"],
+            "@components/*": ["./src/components/*"],
+            "@screens/*": ["./src/screens/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@theme/*": ["./src/theme/*"],
+            "@localization/*": ["./src/localization/*"],
+            "@helpers/*": ["./src/helpers/*"],
+            "@/*": ["./src/*"]
+        }
+    },
+    "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
+}

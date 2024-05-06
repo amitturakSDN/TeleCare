@@ -1,0 +1,39 @@
+import {strings} from '@/localization';
+import {IMAGES} from '@/assets';
+export const DEVICE_LIST = [ 
+    {
+      id:1,
+      name:strings.bloodPressure.deviceName,
+      model:strings.bloodPressure.model,
+      leftIcon:IMAGES.bluetooth.bloodPressure,
+      rightIcon:IMAGES.bluetooth.checkedCircle
+    },
+    {
+      id:2,
+      name:strings.oximeter.deviceName,
+      model:strings.oximeter.model,
+      leftIcon:IMAGES.bluetooth.oximeter,
+      rightIcon:IMAGES.bluetooth.checkedCircle
+    },
+    {
+      id:3,
+      name:strings.weight.deviceName,
+      model:strings.weight.model,
+      leftIcon:IMAGES.bluetooth.weight,
+      rightIcon:IMAGES.bluetooth.checkedCircle
+    },
+    {
+      id:4,
+      name:strings.bloodGlucose.deviceName,
+      model:strings.bloodGlucose.model,
+      leftIcon:IMAGES.bluetooth.glucometer,
+      rightIcon:IMAGES.bluetooth.checkedCircle
+    },
+    {
+      id:5,
+      name:strings.temperature.deviceName,
+      model:strings.temperature.model,
+      leftIcon:IMAGES.bluetooth.thermometer,
+      rightIcon:IMAGES.bluetooth.checkedCircle
+    },
+  ]

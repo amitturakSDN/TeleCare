@@ -1,0 +1,217 @@
+import {StyleSheet} from 'react-native';
+import {moderateScale} from '@/hooks/scale';
+import {Fonts} from '@/assets';
+import {colors} from '@/theme';
+export const styles = StyleSheet.create({
+  upload: {
+    height: moderateScale(100),
+    borderWidth: moderateScale(1),
+    borderRadius: moderateScale(10),
+    borderColor: '#005DA8',
+    marginVertical: moderateScale(20),
+    borderStyle: 'dotted',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
+  },
+  input: {
+    fontSize: moderateScale(16),
+    fontFamily: Fonts.medium,
+  },
+  btn: {
+    marginVertical: moderateScale(30),
+    marginBottom: moderateScale(50),
+  },
+  btnText2: {
+    fontSize: moderateScale(18),
+    fontFamily: Fonts.bold,
+  },
+
+  attachTitle: {
+    fontSize: moderateScale(18),
+    fontFamily: Fonts.medium,
+  },
+  attachFile: {
+    fontSize: moderateScale(14),
+    fontFamily: Fonts.medium,
+  },
+  uploadtxt: {
+    fontFamily: Fonts.medium,
+    fontSize: moderateScale(18),
+    marginLeft: moderateScale(10),
+  },
+  attachTitleView: {
+    marginTop: moderateScale(15),
+  },
+  attachFileView: {
+    marginTop: moderateScale(4),
+    flex: 0.85,
+  },
+  radioTxt: {
+    fontWeight: '400',
+    fontSize: moderateScale(16),
+    marginHorizontal: moderateScale(10),
+    fontFamily: Fonts.semibold,
+  },
+  radioContainer: {
+    flexDirection: 'row',
+    marginVertical: moderateScale(5),
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  urgencyTitle: {
+    fontSize: moderateScale(18),
+    marginVertical: moderateScale(10),
+    fontFamily: Fonts.medium,
+  },
+  header: {
+    fontWeight: '600',
+    fontSize: moderateScale(20),
+    fontFamily: Fonts.bold,
+  },
+  subHeader: {
+    fontWeight: '400',
+    fontSize: moderateScale(16),
+    marginTop: moderateScale(5),
+    fontFamily: Fonts.semibold,
+  },
+  dropdown: {
+    height: moderateScale(50),
+    backgroundColor: '#F6F6F6',
+    borderRadius: moderateScale(10),
+    padding: 12,
+    marginTop: moderateScale(5),
+  },
+  genderTitle: {
+    fontSize: moderateScale(18),
+    fontWeight: '400',
+    marginTop: moderateScale(10),
+    fontFamily: Fonts.medium,
+  },
+  item: {
+    padding: 17,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  slot: {
+    borderWidth: moderateScale(1),
+    borderRadius: moderateScale(10),
+    borderColor: 'blue',
+  },
+  slotHeading: {
+    color: 'blue',
+  },
+  dateText: {
+    fontSize: moderateScale(15),
+    fontWeight: '400',
+    color: '#00000099',
+    fontFamily: Fonts.medium,
+  },
+  dateText1: {
+    fontSize: moderateScale(17),
+    fontWeight: '600',
+    color: '#000000',
+    fontFamily: Fonts.medium,
+  },
+  time: {
+    fontSize: moderateScale(17),
+    fontWeight: '400',
+    color: '#00000099',
+    fontFamily: Fonts.medium,
+  },
+  seeMore: {
+    fontSize: moderateScale(17),
+    fontWeight: '500',
+    color: '#121F48',
+    fontFamily: Fonts.medium,
+  },
+  centeredView: {
+    flex: 1,
+    justifyContent: 'flex-end',
+  },
+  modalView: {
+    backgroundColor: 'white',
+    height: '25%',
+    width: '100%',
+    borderTopLeftRadius: moderateScale(25),
+    borderTopRightRadius: moderateScale(25),
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 10,
+    elevation: 5,
+  },
+  button: {
+    marginTop: moderateScale(15),
+    marginRight: moderateScale(10),
+    width: moderateScale(40),
+    height: moderateScale(40),
+    alignSelf: 'flex-end',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.BORDER_COLOR,
+    borderRadius: moderateScale(40),
+  },
+  absolute: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+  },
+  attachmentView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginHorizontal: moderateScale(80),
+    marginTop: moderateScale(10),
+  },
+  attachementText: {
+    color: colors.TEXT3,
+    fontSize: moderateScale(16),
+    marginTop: moderateScale(10),
+  },
+  attachementText1: {
+    color: colors.TEXT3,
+    fontSize: moderateScale(16),
+  },
+  seeMore1: {
+    backgroundColor: colors.LIGHT_SKY_BLUE,
+    height: moderateScale(50),
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: moderateScale(130),
+    borderRadius: moderateScale(50),
+  },
+  serviceCategoryContainer: {
+    height: moderateScale(70),
+    backgroundColor: '#fff',
+    borderRadius: moderateScale(10),
+    borderWidth: 1,
+    width: moderateScale(100),
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  startText: {
+    height: moderateScale(50),
+    backgroundColor: 'rgba(217, 217, 217, 0.32)',
+    borderRadius: moderateScale(10),
+    flexDirection: 'row',
+    width: '32%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: moderateScale(10),
+  },
+  seeMoreText: {
+    backgroundColor: 'rgba(0, 131, 192, 0.2);',
+    height: moderateScale(50),
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: moderateScale(130),
+    borderRadius: moderateScale(50),
+  },
+});

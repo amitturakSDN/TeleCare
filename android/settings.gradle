@@ -1,0 +1,9 @@
+rootProject.name = 'TeleCare'
+
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':@ihealth_ihealthlibrary-react-native'
+project(':@ihealth_ihealthlibrary-react-native').projectDir = new File(rootProject.projectDir, '../modified_modules/@ihealth/ihealthlibrary-react-native/android')
+
+include ':app'
+include ':mobilertc'
+includeBuild('../node_modules/@react-native/gradle-plugin')
